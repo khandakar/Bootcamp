@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>The Money Finder | Bootcamp</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+      <script type="text/javascript" src="scripts/progressbar.js"></script>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+      <script>
+         $(function() {
+           $( "#tabs1" ).tabs();
+         });
+      </script>         
+	<script>
+         $(function() {
+           $( "#tabs2" ).tabs();
+         });
+      </script> 
+	   <script>
+         $(function() {
+           $( "#tabs3" ).tabs();
+         });
+      </script>         
+	<script>
+         $(function() {
+           $( "#tabs4" ).tabs();
+         });
+      </script> 
+      <!-- Internet Explorer HTML5 enabling code: -->
+      <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+      <style type="text/css">
+      .clear {
+      zoom: 1;
+      display: block;
+      }
+      </style>
+      <![endif]-->
+      </head>
+      <body>
+      <section id="page"> 
+      <header> 
+      <hgroup>
+      <h1>The Money Finder</h1>
+      <h3>Bootcamp Training</h3>
+      </hgroup>
+      </header>
+      <section id="articles"> 
+      <article id="article1"> 
+      <div id="modul1header">
+      <p><h2>Bootcamp Module 1</h2>
+      <progress value="0" max="100" id=pr1></progress></p><br>	
+      </div>
+      </div>
+      <div id="tabs1">
+      <ul>
+      <li><a href="#tabs-1">Videos</a></li>
+      <li><a href="#tabs-2">Quiz</a></li>
+      <li><a href="#tabs-3">Download Documents</a></li>
+      </ul>
+      <div id="tabs-1">
+      <ul>
+      <li><a href="#tabs-1">Video 1</a></li>
+      <li><a href="#tabs-2">Video 2</a></li>
+      <li><a href="#tabs-3">Video 3</a></li>
+      </ul>
+      <input type=button value='Done' onClick='incrMod1();'>
+      </div>
+      <div id="tabs-2">
+	  <li><a href="#tabs-1">Quiz 1 </a></li>
+      <li><a href="#tabs-2">Quiz 2 </a></li>
+      <li><a href="#tabs-3">Quiz 3 </a></li>
+      </ul>
+	  <input type=button value='Done' onClick='incrmod1();'>
+      </div>
+      <div id="tabs-3">
+      </div>
+      </div>
+      </article>
+      
+      <!-- Module 2 -->
+     
+      <article id="article2">
+         <div id="modul2header">
+            <p>
+            <h2>Bootcamp Module 2</h2>
+            <progress value="0" max="100" id=pr2></progress></p><br>	
+         </div>
+         </div>
+         <div id="tabs2">
+            <ul>
+               <li><a href="#tabs-1">Videos</a></li>
+               <li><a href="#tabs-2">Quiz</a></li>
+               <li><a href="#tabs-3">Download Documents</a></li>
+            </ul>
+            <div id="tabs-1">
+               <ul>
+                  <li><a href="#tabs-1">Video 1</a></li>
+                  <li><a href="#tabs-2">Video 2</a></li>
+                  <li><a href="#tabs-3">Video 3</a></li>
+               </ul><br>
+               <input type=button value='Done' onClick='incrmod2();'>
+            </div>
+            <div id="tabs-2">
+			<ul>
+                  <li><a href="#tabs-1">Quiz 1</a></li>
+                  <li><a href="#tabs-2">Quiz 2</a></li>
+                  <li><a href="#tabs-3">Quiz 3</a></li>
+               </ul>
+<br>
+			<input type=button value='Done' onClick='incrmod2();'>
+
+            </div>
+            <div id="tabs-3">
+            </div>
+         </div>
+         </div>
+      </article>
+      <!--Module3-->
+	  <article id="article3">
+         <div id="modul2header">
+            <p>
+            <h2>Bootcamp Module 3</h2>
+            <progress value="0" max="100" id=pr3></progress></p><br>	
+         </div>
+         </div>
+         <div id="tabs3">
+            <ul>
+               <li><a href="#tabs-1">Videos</a></li>
+               <li><a href="#tabs-2">Quiz</a></li>
+               <li><a href="#tabs-3">Download Documents</a></li>
+            </ul>
+            <div id="tabs-1">
+               <ul>
+                  <li><a href="#tabs-1">Video 1</a></li>
+                  <li><a href="#tabs-2">Video 2</a></li>
+                  <li><a href="#tabs-3">Video 3</a></li>
+               </ul><br>
+               <input type=button value='Done' onClick='incrMod3();'>
+            </div>
+            <div id="tabs-2">
+			<ul>
+                  <li><a href="#tabs-1">Quiz 1</a></li>
+                  <li><a href="#tabs-2">Quiz 2</a></li>
+                  <li><a href="#tabs-3">Quiz 3</a></li>
+               </ul><br>
+			 <input type=button value='Done' onClick='incrMod3();'>
+            </div>
+            <div id="tabs-3">
+            </div>
+         </div>
+         </div>
+      </article>
+	  <!--Module4-->
+	  <article id="article3">
+         <div id="modul2header">
+            <p>
+            <h2>Bootcamp Module 4</h2>
+            <progress value="0" max="100" id=pr4></progress></p><br>	
+         </div>
+         </div>
+         <div id="tabs4">
+            <ul>
+               <li><a href="#tabs-1">Videos</a></li>
+               <li><a href="#tabs-2">Quiz</a></li>
+               <li><a href="#tabs-3">Download Documents</a></li>
+            </ul>
+            <div id="tabs-1">
+               <ul>
+                  <li><a href="#tabs-1">Video 1</a></li>
+                  <li><a href="#tabs-2">Video 2</a></li>
+                  <li><a href="#tabs-3">Video 3</a></li>
+               </ul><br>
+               <input type=button value='Done' onClick='incrMod4();'>
+            </div>
+            <div id="tabs-2">
+			<ul>
+                  <li><a href="#tabs-1">Quiz 1</a></li>
+                  <li><a href="#tabs-2">Quiz 2</a></li>
+                  <li><a href="#tabs-3">Quiz 3</a></li>
+               </ul><br>
+               <input type=button value='Done' onClick='incrMod4();'>
+            </div>
+            <div id="tabs-3">
+            </div>
+         </div>
+         </div>
+      </article>
+      </section>
+      <footer>
+         <!-- Marking the footer section -->
+         <div class="line"></div>
+         <p>Copyright @ 2015 The Money Finder </p>
+      </footer>
+      </section> 
+      </body>
+</html>
